@@ -211,6 +211,8 @@ VIMRC=/home/Dorke/.vimrc
 #Cyclic completion with tab.
 bind '"\t":menu-complete' 
 
+#Add current dir to path, so files can be called without ./
+PATH="$PATH:."
 
 
 
