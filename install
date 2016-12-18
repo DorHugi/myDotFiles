@@ -1,0 +1,7 @@
+#!/bin/bash
+ln -sf dotFiles/bashrc .bashrc
+ln -sf dotFiles/vars .vars
+ln -sf dotFiles/aliases .aliases
+ln -sf dotFiles/vimrc .vimrc
+ln -sf dotFiles/vim .vim
+source .bashrc
