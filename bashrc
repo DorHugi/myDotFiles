@@ -210,6 +210,7 @@ VIMRC=/home/Dorke/.vimrc
 
 #Cyclic completion with tab.
 bind '"\t":menu-complete' 
+bind "set show-all-if-ambiguous on"
 
 #Add current dir to path, so files can be called without ./
 PATH="$PATH:."
