@@ -2,3 +2,4 @@ alias g='grep'
 alias ll='ls -l'
 alias la='ls -la'
 alias src='source /home/Dorke/.bashrc'
+alias python=/cygdrive/e/personal/Programming/anaconda/python.exe

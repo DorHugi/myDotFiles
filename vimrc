@@ -20,3 +20,11 @@ set softtabstop=4
 "syntax enable 
 "set background=dark
 "colorscheme solarized
+
+"find f12 and shift-f12 to next/prev buffer.
+nnoremap <silent> <F12> :bn<CR>
+nnoremap <silent> <S-F12> :bp<CR>
+
+"Mark chars after 80 chars.
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
